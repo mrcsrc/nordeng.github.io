@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://kit.fontawesome.com/f5956edd42.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="./assets/logofav.svg">
+  <title>Nord Engenharia</title>
+</head>
+
+<body>
+  <!-- menu mobile -->
+  <div class="menu-mobile">
+
+    <div class="menu-header">
+      <!-- <img src="./assets/bg-main.svg" width="150px"> -->
+      <i class="fas fa-bars" id="menu-open" onclick="menuOpenHandler()"></i>
+      <i class="fas fa-chevron-down" id="menu-close" onclick="menuCloseHandler()"></i>
+    </div>
+    <div class="menu-content" id="menu-content">
+
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+  <!-- fim menu mobile -->
+
+  <!-- ínicio menu -->
+  <header class="header">
+
+    <a class="logo" href="">
+      <img src="./assets/Forma 1 copy.svg" alt="">
+    </a>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- fim menu -->
+
+  <!-- ínicio section main-->
+  <section class="main" id="home">
+    <div class="wrapper-main">
+      <div class="main-tittle">
+        <p>Bem vindo(a) à</p>
+      </div>
+
+      <h1 class="blink">Nord</h1>
+      <blockquote>Laudos e Perícias</blockquote>
+
+      <div class="divider1 white"></div>
+
+      <div class="paragraph-big">
+        <p>Nord, variante da língua francesa significa "verdadeiro norte"; referência indispensável na concepção de projetos, buscamos de antemão auxiliar nossos clientes, sendo a bússola que orienta em direção ao projeto e execução de seus sonhos.
+        </p>
+      </div>
+
+      <div class="call-to-action">
+        <a href="https://api.whatsapp.com/send?phone=5513988642496" class="button" target="_blank">Solicite um orçamento
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=5513988642496" class="whatsapp-button" target="_blank">
+          <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="Botão WhatsApp">
+        </a>
+        <!-- 
+        <a href="#home" class="back-button">
+          <img src="/assets/up-arrow.svg" alt="Back Button Top">
+        </a> -->
+
+      </div>
+    </div>
+  </section>
+  <!-- fim section main-->
+
+  <!-- ínicio section serviços -->
+  <section class="servicos" id="servicos">
+
+    <div class="servicos-container">
+      <!-- inicio serviços left side -->
+      <div class="servicos-left-side">
+        <div class="servico-tittle">
+          <p>Serviços da Nord Engenharia</p>
+        </div>
+
+        <div class="box-container">
+          <div class="bg-servicos">
+            <img src="/assets/bgservico.jpeg" alt="">
+          </div>
+          <div class="box" data-id="1">
+            <h2>Assistente Técnico Judicial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="2">
+            <h2>Avaliações de imoveis</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="3">
+            <h2>Laudos de reforma</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="4">
+            <h2>Laudos de vistoria</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="5">
+            <h2>Laudos de prevenção e combate a incendios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="6">
+            <h2>Laudos técnicos de engenharia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="7">
+            <h2>Laudo de vistoria de entrega e recebimento de imovel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+
+          <div class="box" data-id="8">
+            <h2>Laudos de vistoria técnica</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu turpis mauris, ac ultrices sed semper iaculis scelerisque pellentesque aliquam proin, leo laoreet a potenti ex accumsan taciti sem fringilla.</p>
+          </div>
+        </div>
+      </div>
+      <!-- fim serviços left side -->
+
+
+      <!-- inicio serviços right side -->
+      <div class="servicos-right-side">
+        <div class="buttonservice-container">
+
+          <div class="buttonservice" data-id="1">
+            <a class="image-effect" data-id="1">
+              <img src="/assets/icons/Ass. Tec Judicial.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="1">Assistente Técnico Judicial</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="2">
+            <a class="image-effect">
+              <img data-id="2" src="/assets/icons/avaliação de imoveis.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="2">Avaliações de imoveis</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="3">
+            <a class="image-effect">
+              <img data-id="3" src="/assets/icons/Laudo de reforma.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="3">Laudos de reforma</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="4">
+            <a class="image-effect">
+              <img data-id="4" src="/assets/icons/Laudos de vistoria.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="4">Laudos de vistoria</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="5">
+            <a class="image-effect">
+              <img data-id="5" src="/assets/icons/Laudos Prevenção.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="5">Laudos de Prevenção e Combate a incendios</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="6">
+            <a class="image-effect">
+              <img data-id="6" src="/assets/icons/Laudos Tec Eng.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="6">Laudos técnicos de engenharia</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="7">
+            <a class="image-effect">
+              <img data-id="7" src="/assets/icons/Laudos vistoria recebimento.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="7">Laudo de vistoria de entrega e recebimento de imovel</p>
+            </a>
+          </div>
+
+          <div class="buttonservice" data-id="8">
+            <a class="image-effect">
+              <img data-id="8" src="/assets/icons/Laudos vistoria tecnica.svg" alt="" width="60px">
+              <p class="buttonservice" data-id="8">Laudos de vistoria técnica</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fim section serviços -->
+
+  <!-- inicio section wrapper call to action -->
+  <section class="wrapper-call-to-action ">
+    <div class="wrapper-call-to-action-info">
+      <h4>Nos chame no WhatsApp e solicite um orçamento agora mesmo!</h4>
+      <a href="https://api.whatsapp.com/send?phone=5513988642496" target="_blank" class="btn-call-to-action">Nos chame no Whatsapp</a>
+    </div>
+  </section>
+  <!-- fim section wrapper call to action -->
+
+  <!-- ínicio section sobre -->
+  <section class="sobre" id="sobre">
+    <div class="sobre-container">
+
+      <!-- inicio sobre left side -->
+      <div class="sobre-left-side">
+
+        <div class="sobre-tittle">
+          <p>Sobre a Nord Engenharia</p>
+        </div>
+
+        <h3>Estamos prontos para entender<br>sua demanda e propor a solução mais viável e eficaz possível.</h3>
+        <p class="sobre-paragrafo-left">Nord, variante da língua francesa significa "verdadeiro norte"; referência indispensável na concepção de projetos, buscamos de antemão auxiliar nossos clientes, sendo a bússola que orienta em direção ao projeto e execução de seus sonhos.</p>
+
+        <div class="sobre-icons">
+          <div class="sobre-icon">
+            <img src="./assets/comment.svg" alt="sobre-icon" class="mini-sobre-icon">
+            <p>Foco na sua qualidade e solução de demanda</p>
+          </div>
+
+          <div class="sobre-icon">
+            <img src="./assets/comment.svg" alt="sobre-icon" class="mini-sobre-icon">
+            <p>Qualidade, Isenção e Responsabilidade</p>
+          </div>
+
+          <div class="sobre-icon">
+            <img src="./assets/comment.svg" alt="sobre-icon" class="mini-sobre-icon">
+            <p>Preço justo, pagamentos flexíveis e parcelados</p>
+          </div>
+
+          <div class="sobre-icon">
+            <img src="./assets/comment.svg" alt="sobre-icon" class="mini-sobre-icon">
+            <p>Equipe multidisciplinar de engenheiros</p>
+          </div>
+
+        </div>
+      </div>
+      <!-- fim sobre left side -->
+
+      <!-- inicio sobre right side -->
+      <div class="sobre-right-side">
+
+        <div class="sobre-item">
+          <img src="/assets/gepeto.png" alt="" width="300px">
+          <h3>CEO</h3>
+          <blockquote class="bio">João Victor Gomes, CEO da Nord Laudos, graduado em Engenharia Civil pela USC, em seu curto tempo de formação já realizou mais de 32 obras e 27 laudos, possuindo amplo conhecimento em patologias da construção civil. </blockquote>
+        </div>
+      </div>
+      <!-- fim sobre right side -->
+    </div>
+  </section>
+  <!-- fim section sobre -->
+
+  <!-- ínicio section contato -->
+  <section class="section-contato" id="contato">
+
+    <div class="contato-intro">
+      <h2>Entre em contato conosco!</h2>
+      <div class="divider2 black"></div>
+    </div>
+
+    <div>
+      <div class="features-v2 margin-bottom">
+        <div class="feature-v2">
+          <!-- item contato wpp -->
+          <div class="icon ghost left"><img src="assets/whatsapp.svg" alt=""></div>
+          <div class="feature-side-info">
+            <h5>Nos chame no WhatsApp</h5>
+            <div class="divider margin-v2"></div>
+            <a href="https://api.whatsapp.com/send?phone=5513988642496" target="_blank">
+              <div>
+                <p>WhatsApp (13) 9 8864-2496</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="feature-v2">
+          <!-- item contato telefone -->
+          <div class="icon ghost left"><img src="assets/phone-call.svg" alt=""></div>
+          <div class="feature-side-info">
+            <h5>Ligue e Solicite um Orçamento</h5>
+            <div class="divider margin-v2"></div>
+            <a href="tel:4135145171" class="link w-inline-block">
+              <div>
+                <p>Baixada Santista e região</p>
+                <p>(13) 9 8864-2496</p>
+              </div>
+            </a>
+            <a href="tel:4832113171">
+            </a>
+          </div>
+        </div>
+
+        <div class="feature-v2">
+          <!-- item contato email -->
+          <div class="icon ghost left"><img src="assets/email.svg" alt=""></div>
+          <div class="feature-side-info">
+            <h5>Nos envie um e-mail</h5>
+            <div class="divider margin-v2"></div>
+            <a href="linkdoemailaqui">
+              <div class="text-block-4">
+                <p>contato@nordengenharia.com.br</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div> <!-- fechamento features v2 margin bottom-->
+    </div> <!-- fechamento contato wrapper div-->
+  </section>
+  <!-- fim section contato -->
+
+  <!-- ínicio section footer -->
+  <footer>
+    <div class="footer">
+      <div class="footer-container">
+
+        <div class="footer-item">
+          <ul>
+            <li>Av. Washington Luiz, 194 - Vila Matias Santos - SP</li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <ul class="footer-info">
+            <li>Atendimento</li>
+            <li>Seg. à Sexta das 8h às 18hrs.</li>
+            <li>(13) 9 8864-2496</li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <div class="redes-sociais">
+            <a href="https://www.instagram.com/nordlaudos/" target="_blank">
+              <img class="img-before" src="assets/footer-instagram-hover.svg" alt="">
+            </a>
+            <!-- <div class="img-after">
+              <img src="assets/footer-instagram.svg" alt="">
+            </div> -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- incio copy MV -->
+    <div class="copy">
+      <p>MV Company © Todos os direitos reservados.</p>
+    </div>
+    <!-- fim copy MV -->
+  </footer>
+  <!-- fim section footer -->
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
