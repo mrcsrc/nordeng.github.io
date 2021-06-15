@@ -560,7 +560,7 @@ html {
   }
 
   .bg-servicos {
-    width: 140px;
+    width: 440px;
     height: 380px;
     padding: 10px;
   }
@@ -672,8 +672,8 @@ html {
     text-align: left;
     cursor: pointer;
 
-    width: 100px;
-    left: 50px;
+    width: 120px;
+    left: 65px;
     top: 1%;
     font-size: 13px;
     font-weight: 700;
@@ -860,6 +860,17 @@ html {
   /* margin-top: 40px; */
   line-height: 1.5rem;
   color: #000000;
+}
+
+@media (max-width: 767px) {
+  .sobre-left-side {
+    border-right: none;
+  }
+
+  .sobre-item {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Fim Sobre
 --------- */
@@ -1103,5 +1114,28 @@ html {
   text-align: center;
   padding-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-tittle {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-item {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* Fim Footer
 --------- */
