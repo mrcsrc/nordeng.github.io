@@ -607,24 +607,6 @@ html {
 }
 
 @media (max-width: 767px) {
-  .servicos {
-    background: #f8f8ff;
-    display: flex;
-    align-items: center;
-  }
-
-  .servico-tittle p {
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-bottom: 40px;
-  }
-
-  .bg-servicos {
-    width: 440px;
-    height: 380px;
-    padding: 10px;
-  }
-
   .servicos-container {
     display: flex;
     flex-wrap: wrap;
@@ -633,7 +615,7 @@ html {
 
   .servicos-right-side {
     margin-top: 450px;
-    margin-left: 50px;
+    margin-left: 15px;
   }
 
   .buttonservice-container {
