@@ -20,6 +20,7 @@ a {
   box-sizing: border-box;
   color: white;
   font-family: "Montserrat", sans-serif;
+  /* font-family: 'Poppins', sans-serif;; */
 }
 
 img {
@@ -426,15 +427,16 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: justify;
 }
 
 .box h2 {
-  font-size: 20px;
   text-align: center;
+  color: #f7bb30;
 }
 .box p {
-  width: 300px;
-  font-size: 14px;
+  width: 400px;
+  font-size: 13px;
   align-self: start;
 }
 
@@ -607,6 +609,38 @@ html {
 }
 
 @media (max-width: 767px) {
+  .servicos {
+    background: #f8f8ff;
+    display: flex;
+    align-items: center;
+  }
+
+  .servicos-left-side {
+    border-right: 0px;
+  }
+
+  .servico-tittle p {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  .box h2 {
+    margin-right: 120px;
+    font-size: 22px;
+  }
+  .box p {
+    width: 200px;
+    margin-right: 120px;
+    font-size: 12px;
+  }
+
+  .bg-servicos {
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+  }
+
   .servicos-container {
     display: flex;
     flex-wrap: wrap;
@@ -779,7 +813,7 @@ html {
 }
 
 .sobre-icon p {
-  font-size: 1rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 0.313rem;
@@ -997,61 +1031,77 @@ html {
 /* Footer
 --------- */
 .footer {
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
 
-  padding: 1.25rem;
+  width: 100%;
+  padding: 1rem;
 
   background: #090909;
 }
 
 .footer-container {
-  max-width: 62.5rem;
-
   display: flex;
-  align-items: center;
-  margin: 0 auto;
 
-  padding: 0 1.25rem;
+  padding: 1.75rem 3.75rem;
 }
 
 .footer-item {
-  width: 33.33%;
+  width: 33.3333%;
+  padding: 0 60px;
+}
+
+.footer-tittle {
+  font-weight: bold;
+
+  color: #f7bb30;
+
+  margin-bottom: 10px;
+}
+
+.footer-logo img {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer-logo p {
+  text-align: center;
+  font-size: 13px;
 }
 
 .footer-info {
   text-align: center;
 }
 
-.redes-sociais {
+.footer-info-redes {
   display: flex;
-
-  width: 3.75rem;
-  height: 3.75rem;
-  margin: 0 auto;
+  padding: 5px;
+  justify-content: center;
 }
 
-.redes-sociais img {
-  width: 3.75rem;
-  height: 3.75rem;
+.footer-info-redes img {
+  display: flex;
+  margin: 5px;
+  align-items: center;
 }
 
-/* .img-before:hover {
-  opacity: 0;
-} */
-
-.img-after {
-  position: absolute;
-  z-index: 999;
+.links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.img-after:hover {
-  opacity: 0;
+.tittle-left:before {
+  content: ">";
+  padding-right: 3px;
 }
 
 .copy {
   background: #090909;
   color: #fff;
   text-align: center;
+  padding-bottom: 20px;
 }
 /* Fim Footer
 --------- */
