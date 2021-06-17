@@ -635,6 +635,18 @@ html {
     font-size: 12px;
   }
 
+  .buttonservice {
+    display: flex;
+    position: relative;
+
+    width: 50%;
+    padding: none;
+  }
+
+  .buttonservice p {
+    left: none;
+  }
+
   .bg-servicos {
     width: 340px;
     height: 380px;
@@ -1134,6 +1146,7 @@ html {
   .footer-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
