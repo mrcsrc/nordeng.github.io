@@ -1041,7 +1041,7 @@ html {
   .feature-v2 /*itens da lista de contato*/ {
     display: flex;
     width: 100%;
-    padding: 20px 25px 32px 15px;
+    padding: 20px;
 
     flex-wrap: wrap;
     align-items: center;
