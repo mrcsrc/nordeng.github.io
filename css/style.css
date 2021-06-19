@@ -790,7 +790,7 @@ html {
 
   .info-mobile {
     margin: 0 auto;
-    margin-right: 20px;
+    margin-right: 80px;
     padding: 10px;
   }
 
@@ -810,7 +810,7 @@ html {
   .info-mobile p {
     color: black;
     font-size: 14px;
-
+    font-weight: 700;
     text-align: center;
     padding-bottom: 10px;
   }
