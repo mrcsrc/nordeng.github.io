@@ -782,6 +782,7 @@ html {
   .conteudo-mobile {
     display: flex;
     flex-wrap: wrap;
+
     margin: 0 auto;
 
     width: 400px;
@@ -789,6 +790,7 @@ html {
 
   .info-mobile {
     margin: 0 auto;
+    margin-right: 20px;
     padding: 10px;
   }
 
@@ -800,14 +802,14 @@ html {
 
   .info-mobile h2 {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
 
     text-align: center;
   }
 
   .info-mobile p {
     color: black;
-    font-size: 12px;
+    font-size: 14px;
 
     text-align: center;
     padding-bottom: 10px;
