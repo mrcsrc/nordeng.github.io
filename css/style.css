@@ -1000,17 +1000,25 @@ html {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .sobre-left-side {
+    margin: 0.4rem; /* antes estava 20 20px */
     border-right: none;
   }
 
   .sobre-left-side h3 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 
     margin-top: 3.75rem;
     margin-bottom: 1.25rem;
 
     color: #111111;
+  }
+
+  .sobre-paragrafo-left {
+    font-size: 1rem;
+    margin-bottom: 2.813rem;
+    margin-right: 0.2rem;
+    line-height: 1.625rem;
   }
 
   .sobre-item {
@@ -1194,9 +1202,7 @@ html {
 
     max-width: 100%;
     font-size: 20px;
-    margin-right: 50px;
-    padding-right: 0rem;
-    padding-left: 0rem;
+    padding: 3.75rem 3.75rem;
   }
 
   .features-v2 /*container segurando todos os itens */ {
@@ -1223,9 +1229,7 @@ html {
 
     max-width: 100%;
     font-size: 20px;
-    margin-right: 50px;
-    padding-right: 0rem;
-    padding-left: 0rem;
+    padding: 3.75rem 3.75rem;
   }
 
   .features-v2 /*container segurando todos os itens */ {
