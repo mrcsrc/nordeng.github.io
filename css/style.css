@@ -715,13 +715,15 @@ html {
   .conteudo-mobile {
     display: flex;
     flex-wrap: wrap;
+
     margin: 0 auto;
 
-    width: 400px;
+    width: 300px;
   }
 
   .info-mobile {
     margin: 0 auto;
+    margin-right: 30px;
     padding: 10px;
   }
 
@@ -733,15 +735,15 @@ html {
 
   .info-mobile h2 {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
 
     text-align: center;
   }
 
   .info-mobile p {
     color: black;
-    font-size: 12px;
-
+    font-size: 14px;
+    font-weight: 700;
     text-align: center;
     padding-bottom: 10px;
   }
@@ -1187,37 +1189,59 @@ html {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .contato-intro {
+    display: flex;
+    flex-direction: column;
+
     max-width: 100%;
-    font-size: 1.2rem;
+    font-size: 20px;
+    margin-right: 50px;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .features-v2 /*container segurando todos os itens */ {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .feature-v2 /*itens da lista de contato*/ {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
+    flex-direction: column;
     width: 100%;
+
     margin-bottom: 40px;
-    padding: 0;
+    padding: 0px;
+    align-items: center;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .contato-intro {
+    display: flex;
+    flex-direction: column;
+
     max-width: 100%;
-    font-size: 1.2rem;
+    font-size: 20px;
+    margin-right: 50px;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .features-v2 /*container segurando todos os itens */ {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .feature-v2 /*itens da lista de contato*/ {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
+    flex-direction: column;
     width: 100%;
+
     margin-bottom: 40px;
-    padding: 0;
+    padding: 0px;
+    align-items: center;
   }
 }
 /* Fim Contato
@@ -1319,6 +1343,7 @@ html {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 20px 0;
   }
 }
 
@@ -1342,6 +1367,7 @@ html {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 20px 0;
   }
 }
 
