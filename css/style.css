@@ -743,6 +743,7 @@ html {
   .info-mobile p {
     color: black;
     font-size: 14px;
+    font-weight: normal;
     text-align: center;
     padding-bottom: 10px;
   }
@@ -811,7 +812,7 @@ html {
   .info-mobile p {
     color: black;
     font-size: 14px;
-
+    font-weight: normal;
     text-align: center;
     padding-bottom: 10px;
   }
@@ -1204,15 +1205,6 @@ html {
     padding: 3.75rem 3.75rem;
   }
 
-  .contato-intro {
-    display: flex;
-    flex-direction: column;
-
-    max-width: 100%;
-    font-size: 20px;
-    padding: 3.75rem 3.75rem;
-  }
-
   .features-v2 /*container segurando todos os itens */ {
     display: flex;
     width: 100%;
@@ -1227,6 +1219,10 @@ html {
     margin-bottom: 40px;
     padding: 0px;
     align-items: center;
+  }
+
+  .left /*estilização da parte do icon da lista.*/ {
+    margin-right: 0rem;
   }
 }
 
@@ -1253,6 +1249,10 @@ html {
     margin-bottom: 40px;
     padding: 0px;
     align-items: center;
+  }
+
+  .left /*estilização da parte do icon da lista.*/ {
+    margin-right: 0rem;
   }
 }
 /* Fim Contato
