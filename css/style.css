@@ -465,6 +465,9 @@ html {
 }
 
 /* INICIOS LEFT SIDE */
+.servicos-mobile {
+  display: none;
+}
 .servicos-left-side {
   flex: 1;
   margin: 1.25rem;
@@ -679,164 +682,105 @@ html {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .servicos {
-    display: flex;
-    align-items: center;
+    display: none;
   }
 
-  .servicos-container {
+  .servicos-mobile {
+    display: flex;
+    padding: 1rem 1rem;
+  }
+
+  .servicos-tittle-mobile p {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+
+    padding: 2.75rem 2.75rem;
+
+    color: #5d5f64;
+  }
+
+  .conteudo-mobile {
     display: flex;
     flex-wrap: wrap;
 
-    padding: 0rem 0rem;
+    width: 450px;
   }
 
-  .servicos-left-side {
-    align-items: center;
-
-    border-right: 0px;
-  }
-
-  .servico-tittle p {
-    font-size: 12px;
-    margin-top: 40px;
-    margin-left: 0px;
-    margin-bottom: 40px;
-  }
-
-  .box h2 {
-    margin-right: 220px;
-    font-size: 16px;
-  }
-  .box p {
-    width: 200px;
-    margin-right: 220px;
-    font-size: 12px;
-  }
-
-  .bg-servicos {
-    width: 240px;
-    height: 380px;
+  .buttonservice-mobile {
+    width: 50%;
     padding: 10px;
   }
 
-  .servicos-container {
+  .buttonservice-mobile img {
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0px;
+    margin: 0 auto;
+    padding: 10px 0;
   }
 
-  .servicos-right-side {
-    margin-top: 450px;
-    margin-left: 10px;
+  .buttonservice-mobile h2 {
+    color: black;
+    font-size: 16px;
+    text-align: center;
   }
 
-  .buttonservice-container {
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 70%;
-  }
-
-  .buttonservice {
-    display: flex;
-
-    flex-wrap: wrap;
-    position: relative;
-
-    padding: 5px 0px;
-  }
-
-  .buttonservice p {
-    width: 60px;
-    left: 65px;
-    top: 1%;
-    font-size: 10px;
+  .buttonservice-mobile p {
+    color: black;
+    font-size: 12px;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .servicos {
-    background: #f8f8ff;
+    display: none;
+  }
+
+  .servicos-mobile {
     display: flex;
-    align-items: center;
+    padding: 1rem 1rem;
   }
 
-  .servicos-left-side {
-    border-right: 0px;
+  .servicos-tittle-mobile p {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+
+    padding: 2.75rem 2.75rem;
+
+    color: #5d5f64;
   }
 
-  .servico-tittle p {
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-bottom: 40px;
-  }
-
-  .box h2 {
-    margin-right: 120px;
-    font-size: 22px;
-  }
-  .box p {
-    width: 200px;
-    margin-right: 120px;
-    font-size: 12px;
-  }
-
-  .buttonservice {
+  .conteudo-mobile {
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
 
+    width: 450px;
+  }
+
+  .buttonservice-mobile {
     width: 50%;
-    padding: none;
-  }
-
-  .buttonservice p {
-    left: 0px;
-  }
-
-  .bg-servicos {
-    width: 340px;
-    height: 380px;
     padding: 10px;
   }
 
-  .servicos-container {
+  .buttonservice-mobile img {
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0px;
+    margin: 0 auto;
+    padding: 10px 0;
   }
 
-  .servicos-right-side {
-    margin-top: 450px;
-    margin-left: 5px;
-  }
-
-  .buttonservice-container {
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 100%;
-  }
-
-  .buttonservice {
-    display: flex;
-    position: relative;
-
-    width: 50%;
-    padding: 25px 0px;
-  }
-
-  .buttonservice p {
-    position: absolute;
-    text-align: left;
-    cursor: pointer;
-
-    width: 120px;
-    left: 65px;
-    top: 1%;
-    font-size: 13px;
-    font-weight: 700;
-
+  .buttonservice-mobile h2 {
     color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .buttonservice-mobile p {
+    color: black;
+    font-size: 12px;
   }
 }
 
