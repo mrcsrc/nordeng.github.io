@@ -1224,6 +1224,25 @@ html {
   .left /*estilização da parte do icon da lista.*/ {
     margin-right: 0rem;
   }
+
+  .feature-side-info /*informações de contato, wpp, telefone e e-mail.*/ {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-side-info h5 {
+    margin: 0 auto;
+  }
+
+  .feature-side-info p {
+    margin: 0 auto;
+  }
+
+  .divider.margin-v2 /*margin do divisor*/ {
+    margin: 5px auto 5px auto;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -1237,6 +1256,9 @@ html {
 
   .features-v2 /*container segurando todos os itens */ {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+
     width: 100%;
     flex-wrap: wrap;
   }
@@ -1253,6 +1275,25 @@ html {
 
   .left /*estilização da parte do icon da lista.*/ {
     margin-right: 0rem;
+  }
+
+  .feature-side-info /*informações de contato, wpp, telefone e e-mail.*/ {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-side-info h5 {
+    margin: 0 auto;
+  }
+
+  .feature-side-info p {
+    margin: 0 auto;
+  }
+
+  .divider.margin-v2 /*margin do divisor*/ {
+    margin: 5px auto 5px auto;
   }
 }
 /* Fim Contato
